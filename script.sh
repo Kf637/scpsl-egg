@@ -156,7 +156,7 @@ fi
 echo "$(tput setaf 2)Cleaning up..$(tput sgr 0)"
 rm /mnt/server/core
 rm /mnt/server/Exiled.Installer-Linux
-rm -rf /mnt/server/?
+# rm -rf /mnt/server/?
 rm -rf /mnt/server/.local
 rm /mnt/server/config-gameplay.txt
 
